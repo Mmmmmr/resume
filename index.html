@@ -1,297 +1,326 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>姜利民—面试前端开发—2019</title>
+    <link rel="stylesheet" href="./css/main.css" media="(min-width:426px)" />
+    <link rel="stylesheet" href="./css/phone.css" media="(max-width:425px)" />
+    <link rel="stylesheet" href="./css/print.css" media="print" />
+  </head>
 
-<head>
-  <title>个人简历</title>
-  <script src="//at.alicdn.com/t/font_451045_32zbfqegtq3t0529.js"></script>
-  <style type="text/css">
-    .loading{ width: 200px; height: 200px; position: relative; }
-
-    .loading::before,.loading::after{ content: ''; position: absolute; width: 0px; height: 0px; background: black; border-radius: 50%; top: 0; left: 0; bottom: 0; right: 0; margin: auto; animation: s 1.5s linear infinite; }
-    .loading::after{ animation-delay: 0.75s; }
-
-    @keyframes s{ 
-      0%{ width: 0px; height: 0px; opacity: 1; }
-      100%{ width: 100px; height: 100px; opacity: 0; }
-    }
-    .icon { width: 1em; height: 1em; vertical-align: -0.15em; fill: currentColor; overflow: hidden; }
-    .site-welcome{ display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #888; z-index: 1; justify-content: center; align-items: center; }
-    .site-welcome.active{ display: flex; }
-  </style>
-  <link rel="stylesheet" href="./main.css">
-</head>
-
-<body>
-  <div id="topNavBar" class="topNavBar">
-    <div class="topNavBar-inner clearfix">
-      <a class="logo" href="#" alt="logo" style="float: left;">
-        <span class="rs">RS</span>
-        <span class="card">card</span>
-      </a>
-      <nav class="menu" style="float: right;">
-        <ul class="clearfix">
-          <li>
-            <a href="#siteAbout">关于</a>
-          </li>
-          <li>
-            <a href="#siteSkills">技能</a>
-          </li>
-          <li>
-            <a href="#siteWorks">作品</a>
-            <ul class="submenu">
-              <li>作品1</li>
-              <li>作品2</li>
-              <li>作品3</li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">博客</a>
-            <ul class="submenu">
-              <li>博客1</li>
-              <li>博客2</li>
-              <li>博客3</li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">日历</a>
-          </li>
-          <li>
-            <a href="#">联系方式</a>
-          </li>
-          <li>
-            <a href="#">其他</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-  <div class="banner">
-    <div class="mask"></div>
-  </div>
-  <main>
-    <div data-x id="siteAbout" class="userCard">
-      <div class="pictureAndText clearfix">
-        <div class="picture">
-          <img src="./img/avatar.jpg" width=299 height=347 alt="头像">
+  <body>
+    <div id="page" class="layout">
+      <header>
+        <div class="resume-link">
+          <a href="https://github.com/Mmmmmr/resume">简历在线版</a>
         </div>
-        <div class="text">
-          <span class="welcome">Hello
-            <span class="triangle"></span>
-          </span>
-          <h1>姜利民</h1>
-          <p>前端开发工程师</p>
-          <hr>
-          <dl>
-            <dt>年龄</dt>
-            <dd>22</dd>
-            <dt>所在城市</dt>
-            <dd>长沙</dd>
-            <dt>邮箱</dt>
-            <dd>jianglimin999@gmail.com</dd>
-            <dt>手机</dt>
-            <dd>188888888</dd>
-          </dl>
+        <h1>姜 利 民</h1>
+        <p>应聘 Web 前端开发</p>
+      </header>
+      <aside>
+        <div class="avader">
+          <img src="./img/avader.PNG" alt="头像" />
         </div>
-      </div>
-      <footer class="media">
-        <a href="#">
-          <svg class="icon" aria-hidden="true">
-            <use xlink:href="#icon-github"></use>
-          </svg>
-        </a>
-        <a href="#">
-          <svg class="icon" aria-hidden="true">
-            <use xlink:href="#icon-Ankerwebicon-"></use>
-          </svg>
-        </a>
-        <a href="#">
-          <svg class="icon" aria-hidden="true">
-            <use xlink:href="#icon-weibo"></use>
-          </svg>
-        </a>
+        <section>
+          <div class="personal">
+            <h2>基本信息</h2>
+            <div class="item">
+              <span>学历</span>
+              <span>本科</span>
+            </div>
+            
+            <div class="item">
+              <span>毕业时间</span>
+              <span>2017.7</span>
+            </div>
+            <div class="item">
+              <span>年龄</span>
+              <span>23</span>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="skills">
+            <h2>相关技能</h2>
+            <div class="item">
+              <p class="keyword">JavaScript/ HTML 5/ CSS 3/ SVG</p>
+              <p class="rule"><i style="width: 75%"></i></p>
+            </div>
+            <div class="item">
+              <p class="keyword">Vue.js/ Vuex/ Vue Router/ Axios</p>
+              <p class="rule"><i style="width: 65%"></i></p>
+            </div>
+            <div class="item">
+              <p class="keyword">Node.js</p>
+              <p class="rule"><i style="width: 40%"></i></p>
+            </div>
+            <div class="item">
+              <p class="keyword">Webpack/ Parcel/ Npm Script</p>
+              <p class="rule"><i style="width: 70%"></i></p>
+            </div>
+            <div class="item">
+              <p class="keyword">ES6/ Sass、Less/ Babel</p>
+              <p class="rule"><i style="width: 73%"></i></p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="contact">
+            <h2>联系方式</h2>
+            <div class="item">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-phone"></use>
+              </svg>
+              <span>18975945550</span>
+            </div>
+            <div class="item">
+              <svg class="icon" aria-hidden="true" style="fill:red;">
+                <use xlink:href="#icon-wechat"></use>
+              </svg>
+              <span>ilovemami2020</span>
+            </div>
+            <div class="item">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-mail"></use>
+              </svg>
+              <span>jianglimin999@gmail.com</span>
+            </div>
+            <div class="item">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-location"></use>
+              </svg>
+              <span>长沙</span>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="more">
+            <h2>了解更多</h2>
+            <div class="item">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-blog"></use>
+              </svg>
+              <span class="link"
+                ><a href="https://www.jianshu.com/u/e898eaf465d5"
+                  >个人博客主页</a
+                ></span
+              >
+            </div>
+            <div class="item">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-github"></use>
+              </svg>
+              <span class="link"
+                ><a href="https://github.com/Mmmmmr">访问 GitHub</a></span
+              >
+            </div>
+          </div>
+        </section>
+      </aside>
+      <main>
+        <section>
+          <h2>项目经历</h2>
+          <div class="item">
+            <h3>Wheels-mmr UI</h3>
+            <img src="./img/wheels-mmr.png" alt="wheels-mmr" />
+            <ul>
+              <li>
+                <strong>项目介绍：</strong>该项目是参照 Framework7、Ant
+                Design、Element UI、iView 等 UI 库思路，做的一个基于 Vue
+                的简易<span class="highlight"> UI 组件库</span
+                >，目前已支持按钮、输入框、网格、布局、Toast、Tabs、Popover、手风琴等组件。每个组件均经历从<span
+                  class="highlight"
+                  >需求分析</span
+                >到<span class="highlight"> Mocha 单元测试</span></span
+                >完成该项目使我对 Vue
+                的常用特征更加熟悉，同时提升了自己对<span class="highlight"
+                  >前端工程化流程以及单元测试重要性的深刻理解</span
+                >，近一步拥抱开源文化。
+              </li>
+              <li>
+                <strong
+                  >技术：Vue.js/ VuePress/ ES6/ vue/cli3 / Npm Scripts/ Mocha/
+                  SCSS</strong
+                >
+              </li>
+              <li>
+                <strong>项目源码：</strong
+                ><a href="https://github.com/Mmmmmr/wheel-mmr"
+                  >github.com/Mmmmmr/wheel-mmr</a
+                >
+              </li>
+              <li>
+                <strong>浏览链接：</strong
+                ><a href="#"
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+         
+          <div class="item">
+            <h3>CNode 社区</h3>
+            <img src="./img/cnode.png" alt="cnode" />
+            <ul>
+              <li>
+                <strong>项目介绍：</strong>该项目使用 Vue 还原 CNode
+                官方社区，项目调用 CNode 官方社区提供的 API，以 Vue CLI
+                创建项目模版，使用 Axios 获取数据，使用 Vue Router 进行<span
+                  class="highlight"
+                  >前端路由的切换及传参</span
+                >，使用<span class="highlight"> watch 监听路由的变化</span
+                >，Webpack 打包。
+              </li>
+              <li>
+                <strong
+                  >技术栈：Vue CLI/ Vue2/ Vue Router/ Axios/ ES6/ Npm/
+                  SCSS</strong
+                >
+              </li>
+
+              <li>
+                <strong>项目源码：</strong
+                ><a href="https://github.com/Mmmmmr/vue-cnode"
+                  >github.com/Mmmmmr/vue-cnode</a
+                >
+              </li>
+              <li>
+                <strong>浏览链接：</strong
+                ><a href="https://mmmmmr.github.io/vue-cnode"
+                  >mmmmmr.github.io/vue-cnode</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>小程序：YoogoT翻译</h3>
+            <img src="./img/mini-programs.png" alt="mini-programs" />
+            <ul>
+              <li>
+                <strong>项目介绍：</strong>一款提供翻译功能的<span
+                  class="highlight"
+                  >微信小程序</span
+                >。该项目以百度翻译 API 为服务器域名提供支持，主要包含<span
+                  class="highlight"
+                  >翻译首页、语言列表页和翻译历史页</span
+                >。项目逻辑简单，页面清新，提供了近 20 种语言选择，欢迎尝试。
+              </li>
+              <li>
+                <strong>项目源码：</strong
+                ><a href="https://github.com/Mmmmmr/mp-translation"
+                  >github.com/Mmmmmr/mp-translation</a
+                >
+              </li>
+              <li>
+                <strong>浏览项目：</strong
+                >微信搜索小程序——YoogoT翻译或扫描示例图（PDF
+                版本不显示）中二维码
+              </li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h3>简易在线画板</h3>
+            <img src="./img/canvas.png" alt="canvas" />
+            <ul>
+              <li>
+                <strong>项目介绍：</strong>是一个使用<span class="highlight"
+                  >纯原生 JS </span
+                >开发的，主要利用 HTML 5 的<span class="highlight">
+                  Canvas API </span
+                >，是我在学习原生 JS 及 Canvas 过程中开发的小工具。
+                其提供在<span class="highlight"> PC 及手机端</span
+                >在线画画、橡皮擦、画笔调色、画作删除等功能，并支持画作下载。
+              </li>
+              <li>
+                <strong>项目源码：</strong
+                ><a href="https://mmmmmr.github.io/Canvas-mmm/"
+                  >mmmmmr.github.io/Canvas-mmm/</a
+                >
+              </li>
+              <li>
+                <strong>浏览链接：</strong
+                ><a href="https://mmmmmr.github.io/Canvas-mmm/"
+                  >mmmmmr.github.io/Canvas-mmm/</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="line"></div>
+        <section>
+          <h2>关于我</h2>
+          <p>
+            熟练 HTML、DIV + CSS 的<span class="highlight">页面布局</span
+            >，能根据设计图<span class="highlight">像素级</span>完成页面制作
+          </p>
+          <span
+            >熟悉 HTML 5 及<span class="highlight">语义化</span>，了解<span
+              class="highlight"
+            >
+              Canvas </span
+            >动画制作，掌握 CSS 3
+            <span class="highlight">动画、过渡效果</span>等常用技术</span
+          >
+          <p>
+            熟悉原生 JavaScript，会使用<span class="highlight"> ES6+ </span
+            >常用规范，了解<span class="highlight"> TypeScript</span>，了解
+            jQuery 常用 API 及思想
+          </p>
+          <p>
+            熟悉 Vue 常用功能，理解如<span class="highlight"
+              >生命周期、组件、虚拟 DOM、数据响应式</span
+            >等概念，能够使用 Vue 全家桶开发项目，对 React 有一定了解
+          </p>
+          <p>
+            熟悉<span class="highlight">模块化、工程化开发</span>流程，能够配置
+            Webpack
+          </p>
+          <p>
+            有移动端开发经验，会使用<span class="highlight"
+              >REM、vw/ vh、响应式</span
+            >
+            等技术制作适配手机设备的页面
+          </p>
+          <p>
+            了解<span class="highlight"> HTTP </span>相关知识，了解常见的<span
+              class="highlight"
+            >
+              Web 性能优化</span
+            >方案
+          </p>
+          <p>
+            了解
+            <span class="highlight">Node.js</span>，能够开发简单的后台服务器
+          </p>
+          <p>
+            熟练使用<span class="highlight"> VsCode、WebStorm、Sass、Git </span
+            >等开发工具
+          </p>
+        </section>
+        <section>
+          <h2>个人经历</h2>
+          <div class="experience">
+            <p>
+              2017 年 7
+              月毕业于湖南城市学院，在校期间成绩优异，曾多次获奖学金。<br />
+              毕业后就湖南省第四工程有限公司，从事本科时就读的土木工程专业相关工作。<br />
+              工作期间接触了前端，发现自己热爱技术，迄今为止利用所有业余时间自学前端近一年。<br />
+              热爱 coding，享受调试代码及解决 bug
+              的过程，享受通过各种代码组合实现自己成果的过程。有良好的代码规范，热衷分享，崇尚开源文化。
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <a href="http://www.freepik.com/">Designed by M.salama / Freepik</a>
       </footer>
     </div>
-
-    <p class="downloadResume-wrapper">
-      <a class="downloadResume" href="./resume.pdf" target="_blank" download>下载 PDF 简历</a>
-    </p>
-
-    <p class="selfIntroduction">
-      姜利民
-      <br> 技能：前端开发，Rails 开发，Node.js 开发
-    </p>
-
-  </main>
-  <section data-x id="siteSkills" class="skills">
-    <h2>技能</h2>
-    <ol class="clearfix">
-      <li>
-        <h3>
-          HTML 5 &amp; CSS 3
-        </h3>
-        <div class="progressBar">
-          <div class="progress" style="width: 10%;"></div>
-        </div>
-      </li>
-      <li>
-        <h3>
-          JavaScript
-        </h3>
-        <div class="progressBar">
-          <div class="progress" style="width: 20%"></div>
-        </div>
-      </li>
-      <li>
-        <h3>
-          jQuery
-        </h3>
-        <div class="progressBar">
-          <div class="progress" style="width: 30%"></div>
-        </div>
-      </li>
-      <li>
-        <h3>
-          Vue.js
-        </h3>
-        <div class="progressBar">
-          <div class="progress" style="width: 40%"></div>
-        </div>
-      </li>
-      <li>
-        <h3>
-          React.js
-        </h3>
-        <div class="progressBar">
-          <div class="progress"  style="width: 50%"></div>
-        </div>
-      </li>
-      <li>
-        <h3>
-          Node.js
-        </h3>
-        <div class="progressBar">
-          <div class="progress"  style="width: 60%"></div>
-        </div>
-      </li>
-    </ol>
-  </section>
-  <section data-x class="portfolio" id="siteWorks">
-    <h2>作品集</h2>
-    <nav>
-      <ol class="clearfix">
-        <li id="portfolio1">所有</li>
-        <li id="portfolio2">框架</li>
-        <li id="portfolio3">原生JS&amp;CSS</li>
-      </ol>
-      <div id="portfolioBar" class="bar state-1">
-        <div class="bar-inner"></div>
-      </div>
-    </nav>
-    <script>
-      portfolio1.onclick= function(){
-        portfolioBar.className = 'bar state-1'
-      }
-      portfolio2.onclick= function(){
-        portfolioBar.className = 'bar state-2'
-      }
-      portfolio3.onclick= function(){
-        portfolioBar.className = 'bar state-3'
-      }
-    </script>
-
-
-    <div class="works" style="height: 597px;">
-      <div class="big" style="top: 0; left: 0;">
-        <img src="./img/1.jpg" alt="作品1">
-      </div>
-      <div class="small" style="top: 0; left: 645px;">
-        <img src="./img/2.jpg" alt="作品2">
-      </div>
-      <div class="small" style="top: 312px; left: 645px;">
-        <img src="./img/3.jpg" alt="作品3">
-      </div>
-    </div>
-
-  </section>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
-  <script>
-// 添加 offset 类
-let specialTags = document.querySelectorAll('[data-x]')
-for(let i =0;i<specialTags.length; i++){
-  specialTags[i].classList.add('offset')
-}
-
-findClosest()
-window.onscroll = function(x){
-  if(window.scrollY > 0){
-    topNavBar.classList.add('sticky')
-  }else{
-    topNavBar.classList.remove('sticky')
-  }
-  findClosest()
-}
-
-function findClosest(){
-  let specialTags = document.querySelectorAll('[data-x]')
-  let minIndex = 0
-  for(let i =1;i<specialTags.length; i++){
-    if(Math.abs(specialTags[i].offsetTop - window.scrollY) < Math.abs(specialTags[minIndex].offsetTop - window.scrollY)){
-      minIndex = i
-    }
-  }
-  // minIndex 就是里窗口顶部最近的元素
-  specialTags[minIndex].classList.remove('offset')
-  let id = specialTags[minIndex].id
-  let a = document.querySelector('a[href="#'+ id + '"]')
-  let li = a.parentNode
-  let brothersAndMe = li.parentNode.children
-  for(let i=0; i<brothersAndMe.length; i++){
-    brothersAndMe[i].classList.remove('highlight')
-  }
-  li.classList.add('highlight')
-}
-let liTags = document.querySelectorAll('nav.menu > ul > li')
-for(let i=0; i<liTags.length; i++){
-  liTags[i].onmouseenter = function(x){
-    x.currentTarget.classList.add('active')
-  }
-  liTags[i].onmouseleave = function(x){
-    x.currentTarget.classList.remove('active')
-  }
-}
-
-let aTags = document.querySelectorAll('nav.menu > ul > li > a')
-function animate(time) {
-  requestAnimationFrame(animate);
-  TWEEN.update(time);
-}
-requestAnimationFrame(animate);
-
-for(let i=0; i<aTags.length; i++){
-  aTags[i].onclick = function(x){
-    x.preventDefault()
-    let a = x.currentTarget
-    let href = a.getAttribute('href') //'#siteAbout'
-    let element = document.querySelector(href)
-    let top = element.offsetTop
-
-    let currentTop = window.scrollY
-    let targetTop = top - 80
-    let s = targetTop - currentTop // 路程
-    var coords = { y: currentTop}; // 起始位置
-    var t = Math.abs((s/100)*300) // 时间
-    if(t>500){ t = 500 }
-    var tween = new TWEEN.Tween(coords) // 起始位置
-      .to({ y: targetTop}, t) // 结束位置 和 时间
-      .easing(TWEEN.Easing.Cubic.InOut) // 缓动类型
-      .onUpdate(function() {
-        // coords.y 已经变了
-        window.scrollTo(0,coords.y) // 如何更新界面
-      })
-      .start(); // 开始缓动
-    }
-}
-  </script>
-</body>
-
+    <script src="//at.alicdn.com/t/font_963522_ysjp62qwni.js"></script>
+  </body>
 </html>
